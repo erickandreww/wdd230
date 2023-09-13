@@ -6,5 +6,17 @@ header, main, footer {
     max-width: 640px;
     margin: 1rem auto;
     border: 1px solid gray;
+    background-color: orange;
     padding: 10px;
+}
+
+main {
+    display: grid;
+    grid-template: 1fr;
+    grid-gap: 1rem;
+}
+
+section {
+    padding: 1rem;
+    background-color: white;
 }
