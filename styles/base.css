@@ -90,7 +90,7 @@ main {
     color: red;
 }
 
-#card-2 p {
+#card-2 a {
     list-style-type:none;
     padding-left: 1rem;
 }
@@ -98,7 +98,7 @@ main {
 footer {
     background-color: #3E5C76;
     margin-top: 3rem;
-    padding: 1rem;
+    padding: 0.5rem 0 1rem 0;
 }
 
 footer p {
