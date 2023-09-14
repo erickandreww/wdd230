@@ -1,0 +1,62 @@
+body {
+    font-family: "Copse", "Roboto", sans-serif;
+}
+
+header, nav, main, footer {
+    max-width: 640px;
+    margin: auto;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+header img {
+    margin-right: 2rem;
+    width: 25%;
+    width: 200px;
+    height: 200px;
+}
+
+nav {
+    margin: auto;
+    color: black;
+    background-color: brown;
+    font-size: large;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+h2 {
+    margin: auto;
+}
+
+main {
+    display: grid;
+    grid-template: 1fr auto;
+    grid-gap: 1rem;
+}
+
+.card {
+    padding: 1rem;
+    background-color: yellow;
+    border-radius: 10% 10% 0% 0%;
+    width: 80%;
+    margin: auto;
+}
