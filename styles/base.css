@@ -4,7 +4,7 @@ body {
 }
 
 header, nav, main, footer {
-    max-width: 640px;
+    max-width: 80%;
     margin: auto;
     padding: 10px;
 }
