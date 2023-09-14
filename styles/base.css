@@ -6,7 +6,6 @@ body {
 header, nav, main, footer {
     max-width: 100%;
     margin: auto;
-    padding: 10px;
 }
 
 header {
@@ -16,10 +15,11 @@ header {
     margin: auto;
     background-color: #1D2D44;
     color: #F0EBD8;
+    padding: 10px 0px 10px 0px;
 }
 
 header img {
-    margin-right: 2rem;
+    margin-right: 1rem;
     max-width: 200px;
     width: 25%;
     width: 50%;
@@ -27,8 +27,9 @@ header img {
 }
 
 nav {
-    margin: auto;
+    margin: 0 auto;
     color: black;
+    max-width: 800px;
     background-color: #0D1321;
     font-size: large;
 }
@@ -38,10 +39,11 @@ nav a {
     color: #F0EBD8;
     text-decoration: none;
     text-align: center;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 nav a:hover {
+    border: 1px solid #fff;
     background-color: #748CAB;
     color: black;
 }
