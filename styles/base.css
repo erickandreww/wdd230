@@ -55,7 +55,7 @@ main h2 {
 
 main {
     display: grid;
-    grid-template: 1fr;
+    grid-template: auto;
     grid-gap: 1rem;
 }
 
