@@ -6,6 +6,7 @@ body {
 header, nav, main, footer {
     max-width: 100%;
     margin: auto;
+    color: #1B263B;
 }
 
 header {
@@ -50,7 +51,6 @@ nav a:hover {
 main h2 {
     margin: auto;
     padding: 1rem;
-    color: #1B263B;
 }
 
 main {
