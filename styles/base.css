@@ -1,6 +1,6 @@
 body {
     font-family: "Copse", "Roboto", sans-serif;
-    background-color: #D9D9D9;
+    background-color: #9AE0F1;
 }
 
 header, nav, main, footer {
@@ -13,8 +13,8 @@ header {
     align-items: center;
     justify-content: center;
     margin: auto;
-    background-color: #1D2D44;
-    color: #F0EBD8;
+    background-color: #1B263B;
+    color: #E0E1DD;
     padding: 10px 0px 10px 0px;
 }
 
@@ -28,15 +28,14 @@ header img {
 
 nav {
     margin: 0 auto;
-    color: black;
     max-width: 800px;
-    background-color: #0D1321;
+    background-color: #0D1B2A;
     font-size: large;
 }
 
 nav a {
     display: block;
-    color: #F0EBD8;
+    color: #E0E1DD;
     text-decoration: none;
     text-align: center;
     padding: 1rem;
@@ -44,13 +43,14 @@ nav a {
 
 nav a:hover {
     border: 1px solid #fff;
-    background-color: #748CAB;
-    color: black;
+    background-color: #92A2B6;
+    color: #0D1B2A;
 }
 
 main h2 {
     margin: auto;
     padding: 1rem;
+    color: #1B263B;
 }
 
 main {
@@ -60,15 +60,16 @@ main {
 
 .card {
     padding: 0 0 1rem 0;
-    background-color: #748CAB;
+    background-color: #ACB7C3;
+    color: #0D1B2A;
     border-radius: 0% 0% 2% 2%;
     width: 100%;
     margin: auto;
 }
 
 .card h3 {
-    background-color: #0D1321;
-    color: #F0EBD8;
+    background-color: #1B263B;
+    color: #E0E1DD;
     display: flex;
     justify-content: center;
     margin-top: 0;
@@ -83,10 +84,11 @@ main {
 
 .card a {
     text-decoration: none;
+    color: #1B263B;
 }
 
 .card a:hover {
-    color: red;
+    color: #9AE0F1;
 }
 
 #card-2 a {
@@ -95,7 +97,8 @@ main {
 }
 
 footer {
-    background-color: #3E5C76;
+    background-color: #E0E1DD;
+    color: #0D1B2A;
     margin-top: 3rem;
     padding: 0.5rem 0 1rem 0;
 }
