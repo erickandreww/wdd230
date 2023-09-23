@@ -14,5 +14,6 @@ modeButton.addEventListener('click', () => {
         body.style.background = '#9AE0F1';
         main.style.color = '#0D1B2A';
         modeButton.textContent = '☑️';
+        nav.style.background = '#0D1B2A';
     }
 });
