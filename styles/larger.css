@@ -4,14 +4,18 @@
         max-width: 1080px;
     }
 
-    nav {
-        display: flex;
-        justify-content:space-around
-    }
+	#menu {
+		display: none; /* hide hamburger button */
+	}
 
-    nav a:hover {
-        text-decoration: none;
-    }
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
     
     main {
         display: grid;

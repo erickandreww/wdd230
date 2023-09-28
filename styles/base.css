@@ -27,25 +27,66 @@ header img {
     height: 50%;
 }
 
+#mode {
+    position: absolute;
+    top: 1rem;
+    right: 25%;
+    cursor: pointer;
+}
+
 nav {
-    margin: 0 auto;
+    margin: -1rem auto;
     max-width: 800px;
-    background-color: #0D1B2A;
-    font-size: large;
 }
 
-nav a {
-    display: block;
-    color: #E0E1DD;
-    text-decoration: none;
-    text-align: center;
-    padding: 1rem;
+#menu {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 3px 7px 6px;
+	background-color: #eee;
+	color: #000;
+ 	position: absolute;
 }
 
-nav a:hover {
-    border: 1px solid #fff;
-    background-color: #92A2B6;
-    color: #0D1B2A;
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "〤";
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	background-color: #0D1B2A;
+	color: #fff;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation li a {
+	display: block;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #E0E1DD;
+}
+.navigation li a:hover {
+	background-color: #92A2B6;
+	color: #0D1B2A;
+	font-weight: 700;
+}
+
+.open li {
+	display: block;
+	width: 100%;
+}
+.open li a {
+	display: block;
 }
 
 main h2 {
