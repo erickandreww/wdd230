@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+}
+
+img {
+    background: #000;
+    animation: fade 5s;
+    margin-bottom: 2rem;
+}
+
+@keyframes fade {
+    8% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+footer {
+    margin-top: 3rem;
+    padding: 0.5rem 0 1rem 0;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem;
+}
