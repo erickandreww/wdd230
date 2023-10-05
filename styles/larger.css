@@ -49,4 +49,7 @@
         grid-column: 4/6;
     }
 
+    #iframe-map {
+        grid-column: 1/6;
+    }
 }

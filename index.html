@@ -22,7 +22,7 @@
 </head>
 <body>
     <header>
-        <img src="images/myself.png" alt="my photo">
+        <img src="images/myself.webp" loading="lazy" alt="my photo">
         <h1>Erick Moura</h1>
         <div id="mode">
             ☑️
@@ -43,7 +43,7 @@
             <picture>
                 <source srcset="images/fortaleza-temple-day-small.webp" media="(max-width: 400px)">
                 <source srcset="images/fortaleza-temple-day-medium.webp" media="(max-width: 960px)">
-                <img src="images/fortaleza-temple-day-large.webp" alt="Fortaleza Temple at Day" width="1000" height="625">
+                <img src="images/fortaleza-temple-day-large.webp" loading="lazy" alt="Fortaleza Temple at Day" width="1000" height="625">
             </picture>
         </div>
         <h2>WDD 230: Web Frontend Development</h2>
@@ -60,9 +60,12 @@
         </section>
         <section class="card" id="card-2">
             <h3>Information</h3>
-            <a href="#">Wheather</a>
-            <a href="#">N° Visits</a>
+            <p>Wheather</p>
+            <p><span class="label">Times visited: </span><span class="visits"></span></p>
         </section>
+        <div id="iframe-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d278109.57224531245!2d-46.6915973502575!3d-23.672972655452625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2sS%C3%A3o%20Paulo%2C%20State%20of%20S%C3%A3o%20Paulo!5e0!3m2!1sen!2sbr!4v1696463772836!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </main>
     <footer>
         <p>&copy;<span id="currentYear"></span> | Erick Moura | São Paulo - Brazil &#127463;&#127479;</p>
@@ -71,5 +74,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/ham-button.js"></script>
+    <script src="scripts/visit-counter.js"></script>
 </body>
 </html>
