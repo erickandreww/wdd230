@@ -21,6 +21,11 @@ header {
     background-color: #9AE0F1;
 }
 
+h1 {
+    font-size: 26px;
+    text-align: center;
+}
+
 header img {
     margin-right: 1rem;
     margin-left: 1rem;
