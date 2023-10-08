@@ -1,0 +1,77 @@
+@media screen and (min-width: 500px) {
+
+    header, nav, main, footer {
+        max-width: 960px;
+    }
+
+    #site-title {
+        top: 50%;
+    }
+
+    #hero {
+        height: 400px;
+    }
+
+	#menu {
+		display: none;
+	}
+
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+
+	.events {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+		margin-top: 1.5rem;
+	}
+
+	.main-event {
+		grid-row: 1;
+		grid-column: 1/7;
+	}
+	
+	.event-cards {
+		margin-top: 1rem;
+		margin-bottom: 2rem;
+	}
+
+	#info-card {
+		grid-row: 1;
+		grid-column: 7/9;
+		margin: 0;
+		width: 100%;
+		margin-bottom: 1rem;
+		max-height: 325px;
+	}
+	
+	#event1 {
+		grid-row: 2;
+		grid-column: 1/5;
+	}
+	
+	#event2 {
+		grid-row: 2;
+		grid-column: 5/9;
+	}
+	
+	#event3 {
+		grid-row: 3;
+		grid-column: 1/5;
+	}
+
+	#event4 {
+		grid-row: 3;
+		grid-column: 5/9;
+	}
+
+	#event4 img {
+		height: 100%;
+	}
+
+}
