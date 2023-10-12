@@ -247,3 +247,28 @@ footer p {
     margin: 0.5rem;
     color: #C3DCE5;
 }
+
+/*-----Discover-Page-----*/
+
+#discover-main {
+    margin: auto;
+    margin-top: 3.5rem;
+}
+
+.main-side {
+    border: #000 solid 1px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-side picture {
+    display: block;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar {
+    border: #000 solid 1px;
+}

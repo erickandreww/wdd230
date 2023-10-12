@@ -74,4 +74,21 @@
 		height: 100%;
 	}
 
+	/*-----Discover-Page-Larger-----*/
+
+	/* #discover-main {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	}
+
+	.main-side {
+		grid-row: 1;
+		grid-column: 1/4;
+	}
+
+	.sidebar {
+		grid-row: 1;
+		grid-column: 4/6;
+	} */
+
 }
