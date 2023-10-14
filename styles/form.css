@@ -154,6 +154,11 @@ form input.submitBtn {
     margin-bottom: 0;
 }
 
+form input.submitBtn:hover {
+    background-color: #92A2B6;
+    color: #0D1B2A;
+}
+
 form label.box-form input:required {
     border-left: red solid 6px;
 }
