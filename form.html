@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <header>
+        <img src="images/myself.webp" loading="lazy" alt="my photo">
+        <h1>Erick Moura</h1>
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="form.html">Form</a></li>
+        </ul>        
+    </nav>
+    <main>
+        <form method="get" action="record.html">
+            <fieldset>
+                <legend>User Form</legend>
+                <label for="" class="box-form">Username* <input type="text" name="username" id="username" required></label>
+                <label for="" class="box-form">Password* <input type="password" name="password" id="password" pattern="[A-Za-z0-9]{8,}" required></label>
+                <label for="" class="box-form">Repeat Password* <input type="password" name="re-password" id="re-password" pattern="[A-Za-z0-9]{8,}" required></label>
+                <label for="" class="box-form">Email* <input type="email" name="email" id="email" pattern=".+@byui\.edu" 
+                    title="Please enter a valid email address" required></label>
+                <label for="r" class="rate-label">Page Rating</label>
+                <div id="rangevalue">1</div>    
+                <input type="range" name="rate" id="rate" min="1" max="10" value="1" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+            </fieldset>
+            <input type="submit" value="Register" class="submitBtn">
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentYear"></span> | Erick Moura | São Paulo - Brazil &#127463;&#127479;</p>
+        <p>Last Modification<span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/ham-button.js"></script>
+    <script src="scripts/visit-counter.js"></script>
+    <script src="script/rangeInput.js"></script>
+</body>
+</html>
