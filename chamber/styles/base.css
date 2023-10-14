@@ -321,3 +321,17 @@ footer p {
     background-color: #36111F;
     color: #C3DCE5;
 }
+
+.side-card a {
+    display: block;
+    margin: 1rem;
+    padding: 5%;
+    background-color: #86AEBF;
+    color: #29374C;
+    text-decoration: none;
+}
+
+.side-card a:hover {
+    background-color: #36111F;
+    color: #9AE0F1;
+}

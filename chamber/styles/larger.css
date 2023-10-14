@@ -89,6 +89,7 @@
 	.sidebar {
 		grid-row: 1;
 		grid-column: 7/10;
+		width: 100%;
 	}
 
 	.main-side picture img:hover {
