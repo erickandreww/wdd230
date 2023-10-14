@@ -91,4 +91,9 @@
 		grid-column: 7/10;
 	}
 
+	.main-side picture img:hover {
+		box-shadow: 0 0 2rem #36111F;
+		border-radius: 2% 2%;
+	}
+
 }

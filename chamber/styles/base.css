@@ -1,6 +1,5 @@
 body {
     font-family: 'Itim', 'Roboto', sans-serif;
-    background-color: #C3DCE5;
     color: #1B263B;
 }
 
@@ -100,7 +99,9 @@ nav {
 main {
     display: grid;
     grid-gap: 1rem;
-    width: 98%;
+    padding-bottom: 2rem;
+    border: 1px solid rgba(0,0,0,.75);
+    background-color: #C3DCE5;
 }
 
 #hero {
@@ -235,9 +236,10 @@ main {
 }
 
 footer {
-    margin-top: 2rem;
     border: 1px solid #000;
     padding: 1rem;
+    padding-left: 0;
+    padding-right: 0;
     background-color: #364154;
 }
 
@@ -252,11 +254,11 @@ footer p {
 
 #discover-main {
     margin: auto;
-    margin-top: 3rem;
+    padding-top: 2.5rem;
 }
 
 .main-side {
-    width: 98%;
+    width: 95%;
     border: #000 solid 1px;
     margin: auto;
     background-color: #ACB7C3;
@@ -264,9 +266,11 @@ footer p {
 
 .main-side picture {
     display: block;
-    margin: 1rem 1.5rem .5rem 1.5rem;
-    border: #9AE0F1 solid 10px;
+    margin: 1rem;
+    border: #9AE0F1 solid 8.5px;
     border-radius: 2% 2%;
+    padding: 1% 1% 0% 1%;
+    background-color: #9AE0F1;
 }
 
 .main-side picture img {
@@ -274,10 +278,15 @@ footer p {
     height: 100%;
 }
 
+.main-side picture:last-child {
+    margin-bottom: 1.5rem;
+}
+
 .sidebar {
-    width: 98%;
-    border: #000 solid 1px;
-    background-color: #ACB7C3;
+    width: 95%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     display: block;
 }
 
@@ -288,4 +297,27 @@ footer p {
     background-color: #9AE0F1;
     color: #36111F;
     border: #000 solid 1px;
+}
+
+.side-card {
+    text-align: center;
+    margin: .5rem;
+    padding: .5rem;
+    background-color: #9AE0F1;
+    border: 1px solid rgba(0,0,0,.75);
+}
+
+.side-card img {
+    width: 95%;
+}
+
+.side-card button {
+	border: 1px solid #0D1B2A;
+    background-color: #D0F1F9;
+}
+
+
+.side-card button:hover {
+    background-color: #36111F;
+    color: #C3DCE5;
 }
