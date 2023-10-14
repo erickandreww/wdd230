@@ -24,12 +24,12 @@
         <form method="get" action="record.html">
             <fieldset>
                 <legend>User Rating Form</legend>
-                <label for="" class="box-form">Username* <input type="text" name="username" id="username" required></label>
-                <label for="" class="box-form">Password* <input type="password" name="password" id="password" pattern="[A-Za-z0-9]{8,}" required></label>
-                <label for="" class="box-form">Repeat Password* <input type="password" name="re-password" id="re-password" pattern="[A-Za-z0-9]{8,}" required></label>
-                <label for="" class="box-form">Email* <input type="email" name="email" id="email" pattern=".+@byui\.edu" 
+                <label class="box-form">Username* <input type="text" name="username" id="username" required></label>
+                <label class="box-form">Password* <input type="password" name="password" id="password" pattern="[A-Za-z0-9]{8,}" required></label>
+                <label class="box-form">Repeat Password* <input type="password" name="re-password" id="re-password" pattern="[A-Za-z0-9]{8,}" required></label>
+                <label class="box-form">Email* <input type="email" name="email" id="email" pattern=".+@byui\.edu" 
                     title="Please enter a valid email address" required></label>
-                <label for="r" class="rate-label">Page Rating</label>
+                <label class="rate-label">Page Rating</label>
                 <div id="rangevalue">1</div>    
                 <input type="range" name="rate" id="rate" min="1" max="10" value="1" step="1" list="rangevalues">
                 <datalist id="rangevalues">
