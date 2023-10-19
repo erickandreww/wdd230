@@ -1,0 +1,28 @@
+{
+    "familyName" : "Moura", 
+    "moveDate" : "05/10/2023", 
+    "numberOfRecords" : "4", 
+    "visited" : "Yes", 
+    "familyMembers" : [
+        {
+            "name" : "Erick",
+            "gender" : "male",
+            "birthdate" : "01/07/1998"
+        }, 
+        {
+            "name" : "Vanda",
+            "gender" : "female",
+            "birthdate" : "19/04/1970"
+        }, 
+        {
+            "name" : "Thamires",
+            "gender" : "female",
+            "birthdate" : "07/08/2004"
+        },
+        {
+            "name" : "Raylan",
+            "gender" : "male",
+            "birthdate" : "10/06/2018"
+        }
+    ]
+}
