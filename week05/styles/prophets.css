@@ -1,0 +1,65 @@
+header {
+    padding: 2rem;
+    background-color: gold;
+    text-align: center;
+}
+
+main {
+    padding-top: 2rem;
+    margin: auto 0;
+}
+
+.card {
+    margin: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    background-color: beige;
+}
+
+.card h2 {
+    text-align: center;
+    background-color: aquamarine;
+    margin: 0;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.info {
+    display:block;
+    text-align: center;
+    background-color: beige;
+    font-size: large;
+    color: darkblue;
+}
+
+.card img {
+    grid-row: 3;
+    justify-self: center;
+    width: 95%;
+    margin: 1rem;
+    max-width: 340px;
+    height: 400px;
+}
+
+#cards:last-child {
+    padding-bottom: 2rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: gold;
+    padding: 2.5rem;
+    font-size: large;
+}
+
+@media screen and (min-width: 600px) {
+
+    #cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+
+}
