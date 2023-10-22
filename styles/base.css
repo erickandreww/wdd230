@@ -211,3 +211,12 @@ iframe {
 .label {
 	font-weight: 700;
 }
+
+#weather {
+    display: flex;
+    justify-content: left;
+}
+
+#weather img {
+    align-items: center;
+}
