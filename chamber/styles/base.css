@@ -343,6 +343,11 @@ form {
     margin: auto;
 }
 
+form h2 {
+    padding-top: 2rem;
+    text-align: center;
+}
+
 form fieldset {
     margin: 2rem 0;
     border: 1px solid #0D1B2A;
@@ -360,7 +365,7 @@ form label.box-form{
     display: block;
     padding-top: 1rem;
     color: #1B263B;
-    font-size: .8rem;    
+    font-size: 1rem;    
 }
 
 form label.membership {
@@ -371,6 +376,10 @@ form label.membership {
 
 #userField, #organizationField {
     padding-bottom: 1rem;
+}
+
+#organizationDescription {
+    padding-bottom: 5rem;
 }
 
 form label.box-form input, form label.box-form select {
@@ -408,4 +417,49 @@ form label.box-form input:required {
 
 form label.box-form input:required:valid {
     border-left: green solid 6px;
+}
+
+/* MemberShip Level Benefits */
+
+#membershipLevel {
+    width: 98%;
+    margin: auto;
+}
+
+#membershipLevel h2 {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.membership-card {
+    border: 1px solid black;
+    border-radius: 0% 8%;
+    margin: 10px;
+    background-color: #86AEBF;
+    color: #1B263B;
+}
+
+.membership-card h3 {
+    text-align: center;
+    color: #36111F;
+}
+
+.membership-card p {
+    margin: 1rem;
+}
+
+#thanks-main {
+    margin: auto;
+}
+
+#thanks-main h2 {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+#thanks-main p {
+    margin: 0;
+    text-align: center;
+    font-size: large;
+    padding-bottom: 2rem;
 }

@@ -97,4 +97,21 @@
 		border-radius: 2% 2%;
 	}
 
+	/* Join Page */
+
+	#join-main {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	#membershipLevel {
+		padding-top: 1rem;
+		margin-top: 0;
+	}
+	
+	#membershipLevel h2 {
+		text-align: center;
+		padding-bottom: 1.5rem;
+	}
+
 }
