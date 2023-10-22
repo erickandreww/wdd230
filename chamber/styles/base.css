@@ -378,10 +378,6 @@ form label.membership {
     padding-bottom: 1rem;
 }
 
-#organizationDescription {
-    padding-bottom: 5rem;
-}
-
 form label.box-form input, form label.box-form select, form label.box-form textarea {
     display: block;
     font-size: 1rem;
