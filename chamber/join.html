@@ -38,8 +38,8 @@
             <h2>Member Register Form</h2>
             <fieldset id="userField">
                 <legend>User Info</legend>
-                <label class="box-form">First Name* <input type="text" name="firstName" id="username" required></label>
-                <label class="box-form">Last Name* <input type="text" name="lastName" id="username" required></label>
+                <label class="box-form">First Name* <input type="text" name="firstName" id="firstName" required></label>
+                <label class="box-form">Last Name* <input type="text" name="lastName" id="lastName" required></label>
                 <label class="box-form">Title <input type="text" name="title" id="title" pattern="[a-zA-Z -]{7,}"> </label>
                 <label class="box-form">Email* <input type="email" name="email" id="email" placeholder="user@email.com" required></label>
                 <label class="box-form">Phone* <input type="tel" name="phone" id="phone" pattern="[a-zA-Z -]{7,}" required> </label>
@@ -53,7 +53,7 @@
             </fieldset>
             <fieldset id="organizationField">
                 <legend>Organization Info</legend>
-                <label class="box-form">Organization Name*<input type="tel" name="phone" id="phone" pattern="[a-zA-Z -]{7,}" required> </label>
+                <label class="box-form">Organization Name*<input type="text" name="organizationName" id="organizationName" pattern="[a-zA-Z -]{7,}" required> </label>
                 <label class="box-form">Organization Description <input type="text" name="description" id="organizationDescription"></label>
                 <label><input type="hidden" name="timestamp" id="timestamp"></label>
             </fieldset>
