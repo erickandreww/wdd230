@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SP Weekly Chamber of Commerce - Join Page</title>
-    <meta name="description" content="A Page focused to the user join to our membership">
+    <meta name="description" content="Join Page focused to the user join to membership of SP Weekly Chamber of Commerce">
     <meta name="author" content="Erick Moura">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,7 +34,7 @@
         </ul>
     </nav>
     <main id="join-main">
-        <form method="get" action="thanks.html">
+        <form method="get" action="thankYou.html">
             <h2>Member Register Form</h2>
             <fieldset id="userField">
                 <legend>User Info</legend>
@@ -54,7 +54,7 @@
             <fieldset id="organizationField">
                 <legend>Organization Info</legend>
                 <label class="box-form">Organization Name*<input type="text" name="organizationName" id="organizationName" pattern="[a-zA-Z -]{7,}" required> </label>
-                <label class="box-form">Organization Description <input type="text" name="description" id="organizationDescription"></label>
+                <label class="box-form">Organization Description <textarea type="text" rows="4" cols="50" name="description"></textarea></label>
                 <label><input type="hidden" name="timestamp" id="timestamp"></label>
             </fieldset>
             <input type="submit" value="Register for member" class="submitBtn">
