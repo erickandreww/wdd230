@@ -1,67 +1,67 @@
 {
     "members" : [
         {
-            "name" : "null", 
-            "address" : "null",
-            "phone" : "null",
-            "email" : "null", 
-            "website" : "null", 
-            "icon" : "null", 
-            "membership" : "null"
+            "name" : "ABC Electronics Ltda.", 
+            "address" : "123 Tech Street, São Paulo, Brazil", 
+            "phone" : "+55 (11) 1234-5678", 
+            "email" : "info@abcelectronics.com.br", 
+            "website" : "www.abcelectronics.com.br", 
+            "icon" : "icon-1.png", 
+            "membership" : "Silver"
         },
         {
-            "name" : "null", 
-            "address" : "null",
-            "phone" : "null",
-            "email" : "null", 
-            "website" : "null", 
-            "icon" : "null", 
-            "membership" : "null"
+            "name" : "XYZ Solutions S.A.", 
+            "address" : "456 Innovation Avenue, São Paulo, Brazil", 
+            "phone" : "+55 (11) 9876-5432", 
+            "email" : "contact@xyzsolutions.com.br", 
+            "website" : "www.xyzsolutions.com.br", 
+            "icon" : "icon-2.png", 
+            "membership" : "Gold"
         },
         {
-            "name" : "null", 
-            "address" : "null",
-            "phone" : "null",
-            "email" : "null", 
-            "website" : "null", 
-            "icon" : "null", 
-            "membership" : "null"
+            "name" : "Brazilian Textiles Inc.", 
+            "address" : "789 Fabric Lane, São Paulo, Brazil", 
+            "phone" : "+55 (11) 5555-5555", 
+            "email" : "info@braziliantextiles.com.br", 
+            "website" : "www.braziliantextiles.com.br", 
+            "icon" : "icon-3.png", 
+            "membership" : "Silver"
         },
         {
-            "name" : "null", 
-            "address" : "null",
-            "phone" : "null",
-            "email" : "null", 
-            "website" : "null", 
-            "icon" : "null", 
-            "membership" : "null"
+            "name" : "Global Imports Ltda.", 
+            "address" : "567 Commerce Road, São Paulo, Brazil", 
+            "phone" : "+55 (11) 9876-1234", 
+            "email" : "contact@globalimports.com.br", 
+            "website" : "www.globalimports.com.br", 
+            "icon" : "icon-4.png", 
+            "membership" : "Bronze"
         },
         {
-            "name" : "null", 
-            "address" : "null",
-            "phone" : "null",
-            "email" : "null", 
-            "website" : "null", 
-            "icon" : "null", 
-            "membership" : "null"
+            "name" : "Eco Foods S.A.", 
+            "address" : "321 Green Street, São Paulo, Brazil", 
+            "phone" : "+55 (11) 3210-6548", 
+            "email" : "info@ecofoods.com.br", 
+            "website" : "www.ecofoods.com.br", 
+            "icon" : "icon-5.png", 
+            "membership" : "Gold"
         },
         {
-            "name" : "null", 
-            "address" : "null",
-            "phone" : "null",
-            "email" : "null", 
-            "website" : "null", 
-            "icon" : "null", 
-            "membership" : "null"
+            "name" : "Best Pharmaceuticals Inc.", 
+            "address" : "654 Health Avenue, São Paulo, Brazil", 
+            "phone" : "+55 (11) 7890-1234", 
+            "email" : "info@bestpharma.com.br", 
+            "website" : "www.bestpharma.com.br", 
+            "icon" : "icon-6.png", 
+            "membership" : "Silver"
         },
         {
-            "name" : "null", 
-            "address" : "null",
-            "phone" : "null",
-            "email" : "null", 
-            "website" : "null", 
-            "icon" : "null", 
-            "membership" : "null"
+            "name" : "São Paulo Tours & Travels", 
+            "address" : "987 Tourism Road, São Paulo, Brazil", 
+            "phone" : "+55 (11) 4560-9871", 
+            "email" : "info@sptoursandtravels.com.br", 
+            "website" : "www.sptoursandtravels.com.br", 
+            "icon" : "icon-7.png", 
+            "membership" : "Bronze"
         }
     ]
 }
