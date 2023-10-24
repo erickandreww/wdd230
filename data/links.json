@@ -1,0 +1,69 @@
+{
+    "weeks" : [
+        {
+            "week" : "Week 1",
+            "links" : [
+                {
+                    "title" : "Layout",
+                    "url" : "week01/chamber-site-plan.html"
+                },
+                {
+                    "title" : "Media Query",
+                    "url" : "week01/media-query.html"
+                },
+                {
+                    "title" : "JS Pen",
+                    "url" : "https://codepen.io/Erick-kush/pen/xxmrKXm"
+                }
+            ]
+        },
+        {
+            "week" : "Week 2",
+            "links" : [
+                {
+                    "title" : "Design",
+                    "url" : "week02/design.html"
+                },
+                {
+                    "title" : "Hamburguer Menu",
+                    "url" : "https://codepen.io/Erick-kush/pen/dywZqPP"
+                },
+                {
+                    "title" : "Bom",
+                    "url" : "week02/bom.html"
+                },
+                {
+                    "title" : "Chamber",
+                    "url" : "chamber/index.html"
+                }
+            ]
+        },
+        {
+            "week" : "Week 3",
+            "links" : [
+                {
+                    "title" : "",
+                    "url" : ""
+                }
+            ]
+        },
+        {
+            "week" : "Week 4",
+            "links" : [
+                {
+                    "title" : "",
+                    "url" : ""
+                }
+            ]
+        },
+        {
+            "week" : "Week 5",
+            "links" : [
+                {
+                    "title" : "",
+                    "url" : ""
+                }
+            ]
+        }
+    ]
+}

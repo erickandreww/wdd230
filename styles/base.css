@@ -154,7 +154,7 @@ main {
     color: #E0E1DD;
     display: flex;
     justify-content: center;
-    margin-top: 0;
+    margin: 0;
     padding: 0.5rem;
     border-radius: 2% 2% 0% 0%;   
 }
@@ -210,13 +210,18 @@ iframe {
 
 .label {
 	font-weight: 700;
+    text-align: center;
 }
 
 #weather {
-    display: flex;
-    justify-content: left;
+    padding-bottom: .5rem;
 }
 
-#weather img {
-    align-items: center;
+#weather figure {
+    display: grid;
+    justify-items: center;
+}
+
+#weather p {
+    text-align: center;
 }
