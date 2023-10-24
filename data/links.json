@@ -42,8 +42,24 @@
             "week" : "Week 3",
             "links" : [
                 {
-                    "title" : "",
-                    "url" : ""
+                    "title" : "Landscape",
+                    "url" : "week03/images/landscape.webp"
+                },
+                {
+                    "title" : "Responsive Img",
+                    "url" : "week03/reponsive-images.html"
+                },
+                {
+                    "title" : "localStorage",
+                    "url" : "week03/localStorage.html"
+                },
+                {
+                    "title" : "lazyLoad",
+                    "url" : "week03/lazyload.html"
+                },
+                {
+                    "title" : "Discover Page",
+                    "url" : "chamber/discover.html"
                 }
             ]
         },
@@ -51,8 +67,24 @@
             "week" : "Week 4",
             "links" : [
                 {
-                    "title" : "",
-                    "url" : ""
+                    "title" : "CSS Pseudo-Classes",
+                    "url" : "https://codepen.io/Erick-kush/pen/vYvzQPg"
+                },
+                {
+                    "title" : "Combinator",
+                    "url" : "images/combinators.jpg"
+                },
+                {
+                    "title" : "TableBuild",
+                    "url" : "week04/tablebuild.html"
+                },
+                {
+                    "title" : "Forms",
+                    "url" : "week04/index.html"
+                },
+                {
+                    "title" : "Forms Page",
+                    "url" : "form.html"
                 }
             ]
         },
@@ -60,8 +92,20 @@
             "week" : "Week 5",
             "links" : [
                 {
-                    "title" : "",
-                    "url" : ""
+                    "title" : "CSS Pseudo-Elements",
+                    "url" : "https://codepen.io/Erick-kush/pen/QWzoMZq"
+                },
+                {
+                    "title" : "JSON",
+                    "url" : "week05/new-ward-members.json"
+                },
+                {
+                    "title" : "Fetch API",
+                    "url" : "week05/prophets.html"
+                },
+                {
+                    "title" : "Weather API",
+                    "url" : "week05/weather.html"
                 }
             ]
         }
