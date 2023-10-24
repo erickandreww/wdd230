@@ -459,3 +459,96 @@ form label.box-form input:required:valid {
     font-size: large;
     padding-bottom: 2rem;
 }
+
+
+/* Directory Page */
+
+#directory-main h2 {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.menu {
+    display: block;
+    justify-self: center;
+}
+
+#middle-main {
+    margin: 0;
+    padding: 0;
+}
+
+#grid, #list {
+    padding: .5rem;
+}
+
+.grid {
+    margin: auto;
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.grid .member-card {
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    text-align: center;
+    background-color: #9AE0F1;
+    max-width: 300px;
+    width: 100%;
+}
+
+.grid .member-card h3 {
+    text-align: center;
+    background-color: #ACB7C3;
+    margin: 0;
+    padding: .5rem;
+}
+
+.grid .member-card img {
+    align-self: center;
+    padding: .5rem;
+}
+
+.grid .member-info {
+    padding: 0 .5rem;
+    background-color: #ACB7C3;
+}
+
+.grid .member-info p:last-child {
+    background-color: #86AEBF;
+    padding: .5rem;
+    margin: 0 -.5rem;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+    align-items: center;
+}
+
+
+.list section img, .list .member-info p:last-child, .list .member-info a {
+	display: none; 
+}
+
+.list section h3 {
+	font-size: 1rem;
+    padding-left: 2%;
+}
+
+.list section:nth-child(even) {
+	background-color: #D0F1F9;
+}
+
+.list section:nth-child(odd) {
+	background-color: #9AE0F1;
+}
