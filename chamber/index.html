@@ -33,6 +33,12 @@
             <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
+    <div id="banner">
+        <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+        <div>
+            <button id="closeBanner">❌</button>
+        </div>
+    </div>
     <main>
         <div id="hero">
             <a href="join.html" class="herolabel">Come and join us!</a>
@@ -43,9 +49,23 @@
             </picture>
         </div>
         <div class="events">
-            <div id="info-card">
-                <p>Weather 🌞🌚</p>
-                <p><span class="label">Times visited: </span><span class="visits"></span></p>
+            <div id="weather">
+                <div id="today-weather">
+                    <h5>Today Weather</h5>
+                    <figure>
+                        <img id="weather-icon-today" src="#" alt="empty">
+                        <div id="current-temp"></div>
+                        <figcaption id="todayCaption"></figcaption>
+                    </figure>
+                </div>
+                <div id="forecast-weather">
+                    <h5>Forecast Weather</h5>
+                    <figure>
+                        <img id="weather-icon-forecast" src="#" alt="empty">
+                        <div id="forecast-temp"></div>
+                        <figcaption id="forecastCaption"></figcaption>
+                    </figure>
+                </div>
             </div>
             <section class="main-event">
                 <img src="images/main-event.webp" id="main-img" alt="new commerces">
@@ -73,6 +93,10 @@
                 <a href="#">check out</a>
             </section> 
         </div>
+        <div id="spotlight-members">
+            <h2>Members Spotlight</h2>
+            <div class="member-spotcards" id="spotlight-cards"></div>
+        </div>
     </main>
     <footer>
         <p>&copy;<span id="currentYear"></span> | Erick Moura | WDD 230 | São Paulo - &#127463;&#127479;</p>
@@ -81,5 +105,8 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/ham-button.js"></script>
     <script src="scripts/visit-counter.js"></script>
+    <script src="scripts/spotlight.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/banner.js"></script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 @media screen and (min-width: 500px) {
 
-    header, nav, main, footer {
+    header, nav, main, footer, #banner {
         max-width: 960px;
     }
 
@@ -41,7 +41,7 @@
 		margin-bottom: 2rem;
 	}
 
-	#info-card {
+	#weather {
 		grid-row: 1;
 		grid-column: 7/9;
 		margin: 0;
@@ -142,4 +142,8 @@
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 
+	.member-spotcards {
+		grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+	}
+	
 }
