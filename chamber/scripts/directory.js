@@ -12,7 +12,7 @@ const displayMember = (members) => {
     members.forEach((member) => {
         let card = `<section class='member-card'>
                 <h3>${member.name}</h3>
-                <img src='images/hero.webp' alt='${member.name} icon' loading='lazy' width='250' heigth='250'>
+                <img src='${member.icon}' alt='${member.name} icon' loading='lazy' width='250' heigth='250'>
                 <div class="member-info">
                     <a href="${member.website}">${member.website}</a>
                     <p>Address:<br> ${member.address}</p><p>Phone: ${member.phone}</p>

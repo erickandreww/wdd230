@@ -6,7 +6,7 @@
             "phone" : "+55 (11) 1234-5678", 
             "email" : "info@abcelectronics.com.br", 
             "website" : "www.abcelectronics.com.br", 
-            "icon" : "icon-1.png", 
+            "icon" : "images/icon-1.webp", 
             "membership" : "Silver"
         },
         {
@@ -15,7 +15,7 @@
             "phone" : "+55 (11) 9876-5432", 
             "email" : "contact@xyzsolutions.com.br", 
             "website" : "www.xyzsolutions.com.br", 
-            "icon" : "icon-2.png", 
+            "icon" : "images/icon-2.webp", 
             "membership" : "Gold"
         },
         {
@@ -24,7 +24,7 @@
             "phone" : "+55 (11) 5555-5555", 
             "email" : "info@braziliantextiles.com.br", 
             "website" : "www.braziliantextiles.com.br", 
-            "icon" : "icon-3.png", 
+            "icon" : "images/icon-3.webp", 
             "membership" : "Silver"
         },
         {
@@ -33,7 +33,7 @@
             "phone" : "+55 (11) 9876-1234", 
             "email" : "contact@globalimports.com.br", 
             "website" : "www.globalimports.com.br", 
-            "icon" : "icon-4.png", 
+            "icon" : "images/icon-4.webp", 
             "membership" : "Bronze"
         },
         {
@@ -42,7 +42,7 @@
             "phone" : "+55 (11) 3210-6548", 
             "email" : "info@ecofoods.com.br", 
             "website" : "www.ecofoods.com.br", 
-            "icon" : "icon-5.png", 
+            "icon" : "images/icon-5.webp", 
             "membership" : "Gold"
         },
         {
@@ -51,7 +51,7 @@
             "phone" : "+55 (11) 7890-1234", 
             "email" : "info@bestpharma.com.br", 
             "website" : "www.bestpharma.com.br", 
-            "icon" : "icon-6.png", 
+            "icon" : "images/icon-6.webp", 
             "membership" : "Silver"
         },
         {
@@ -60,7 +60,7 @@
             "phone" : "+55 (11) 4560-9871", 
             "email" : "info@sptoursandtravels.com.br", 
             "website" : "www.sptoursandtravels.com.br", 
-            "icon" : "icon-7.png", 
+            "icon" : "images/icon-7.webp", 
             "membership" : "Bronze"
         }
     ]
