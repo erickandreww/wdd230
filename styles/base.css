@@ -1,11 +1,10 @@
 body {
     font-family: "Copse", "Roboto", sans-serif;
-    background-color: #9AE0F1;
 }
 
 header, nav, main, footer {
-    max-width: 100%;
     margin: auto;
+    background-color: #9AE0F1;
     color: #1B263B;
 }
 
@@ -102,7 +101,7 @@ main h2 {
 main {
     display: grid;
     grid-gap: 1rem;
-    width: 98%;
+    padding-bottom: 3rem;
 }
 
 #hero {
@@ -129,7 +128,7 @@ main {
 	padding: 1.0rem;
 	box-shadow: 0 0 3rem #fff;
 	opacity: 0.75;
-	/* Buenas */
+    color: #0D1B2A;
 }
 
 .herolabel p {
@@ -145,7 +144,7 @@ main {
     background-color: #ACB7C3;
     color: #0D1B2A;
     border-radius: 0% 0% 2% 2%;
-    width: 100%;
+    width: 95%;
     margin: auto;
 }
 
@@ -185,7 +184,6 @@ main {
 footer {
     background-color: #E0E1DD;
     color: #0D1B2A;
-    margin-top: 3rem;
     padding: 0.5rem 0 1rem 0;
 }
 

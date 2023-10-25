@@ -1,5 +1,5 @@
 let modeButton = document.querySelector('#mode');
-let body = document.querySelector('body');
+let body = document.querySelector('main');
 let main = document.querySelector('main');
 let nav = document.querySelector('nav');
 let header = document.querySelector('header');
